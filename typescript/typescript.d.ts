@@ -1,3 +1,5 @@
-declare let 포켓몬: number | string;
-declare let 포켓몬2: (number | string);
-declare let 포켓몬3: (number | string)[];
+declare let 학교: {
+    score: (number | boolean)[];
+    teacher: string;
+    friend: string | string[];
+};

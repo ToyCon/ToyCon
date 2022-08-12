@@ -1,7 +1,8 @@
 "use strict";
-let 포켓몬 = 'Charmeleon';
-let 포켓몬2 = 5;
-let 포켓몬3 = [6, 'Charizard'];
-console.log(포켓몬);
-console.log(포켓몬2);
-console.log(포켓몬3);
+let 학교 = {
+    score: [100, 97, 84],
+    teacher: 'Phil',
+    friend: 'John'
+};
+학교.score[4] = false;
+학교.friend = ['Lee', 학교.teacher];
